@@ -1,0 +1,5 @@
+fi = open("data.text", "w")
+fi.write("Hello, World!")
+fi.close()
+fi = open("data.text", "r")
+content = fi.read()
